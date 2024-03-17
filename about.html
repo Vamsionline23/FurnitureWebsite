@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> About </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap-grid.min.css" integrity="sha512-ZuRTqfQ3jNAKvJskDAU/hxbX1w25g41bANOVd1Co6GahIe2XjM6uVZ9dh0Nt3KFCOA061amfF2VeL60aJXdwwQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        .container {
+          position: relative;
+          width: 50%;
+        }
+        
+        .image {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+        
+        .overlay {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: #cccccc;
+          overflow: visible;
+          width: 100%;
+          height: 100%;
+          -webkit-transform: scale(0);
+          -ms-transform: scale(0);
+          transform: scale(0);
+          -webkit-transition: .3s ease;
+          transition: .3s ease;
+        }
+        
+        .container:hover .overlay {
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1);
+        }
+        
+        .text {
+          color: black;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+    </style>
+    <body>
+        <!--header-->
+        <div class="row" style="background-color:#adadad;">
+          <div class="col-1">
+            <img src="images/r.png" alt="" height="40px">
+          </div>
+            <div class="col-sm-5"></div>
+            <div class="col-6 topnav">
+              <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-default rounded-0 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-default); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                <li class="nav-item" role="presentation">
+                  <a href="index.html"><button class="nav-link rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true" style="font-size: large;">Home</button></a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" style="font-size: large;">About</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a href="Buying.html"><button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" style="font-size: large;">Buying Product</button></a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a href="contact.html"><button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" style="font-size: large;">Contact</button></a>
+                </li>
+              </ul>
+            </div>
+        </div>
+        <div style="padding-left: 10%; text-align: center;">
+            <h1 style="padding-top: 30px;font-weight: 600; font-size: xx-large;">About</h1>
+            <h2>We are sell These model sofa-furniture,Chairs</h2>
+        </div>
+        <div class="row" style="padding-top: 40px;">
+            <div class="col-6">
+              <div class="container">
+                <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNoYWlyfGVufDB8fDB8fHww" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">Armchair</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="container">
+                <img src="images/y.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">Ladderback chair</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="padding-top: 40px;">
+            <div class="col-2"></div>
+            <div class="col-8">
+              <div class="container">
+                <img src="https://img.edilportale.com/product-thumbs/b_prodotti-164689-rel07c87124e2274b99979c27bff96a1aad.jpg" alt="Avatar" class="image" >
+                <div class="overlay">
+                  <div class="text">Barcelona chair</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-2"></div>
+          </div>
+          <div class="row" style="padding-top: 40px;">
+            <div class="col-6">
+              <div class="container">
+                <img src="images/w.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">Tulip chair</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="container">
+                <img src="images/n.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">Wing chair</div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>
